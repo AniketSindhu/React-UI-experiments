@@ -5,15 +5,22 @@
   margin-right: auto;
   top: 50%;
   background-color: bisque;
+  transition: 1000ms;
+  border-radius: 8px;
 }
 
 .Title {
   font-weight: regular;
   padding: 10px;
   font-size: 20px;
-  transition: 450ms;
+  transition: 300ms;
+}
+.Title:hover {
+  font-size: 22px;
+  transition: 250ms;
 }
 
-.Title:hover {
-  font-size: 25px;
+.Container:hover {
+  background-color: rgb(248, 209, 79);
+  transition: 1000ms;
 }

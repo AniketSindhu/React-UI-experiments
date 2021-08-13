@@ -1,12 +1,12 @@
-import React from 'react'
-import'../componentsCss/event.css'
+import React from "react";
+import "../componentsCss/event.css";
 
-function Event() {
-    return (
-        <div className="Container">
-            <h3 className="Title">Aniket Sindhu</h3>
-        </div>
-    )
+function Event(props) {
+  return (
+    <div className="Container">
+      <h3 className="Title">{props.element.title.toString()}</h3>
+    </div>
+  );
 }
 
-export default Event
+export default Event;

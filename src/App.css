@@ -4,3 +4,41 @@ h2 {
   margin-top: 20px;
   color: darkslateblue;
 }
+
+.ulist {
+  list-style-type: none;
+}
+
+.button {
+  background-color: indianred;
+  border: none;
+  color: white;
+  padding: 8px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 20px;
+  transition: 400ms;
+}
+
+.button:hover {
+  font-size: 16px;
+  transition: 400ms;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  height: 75px;
+}
+
+.input {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid RED;
+  border-radius: 8px;
+}
